@@ -1,5 +1,5 @@
 // This function loads pokemon data from the Pokemon API
-function fetchPokemonJSON() {
+function fetchSimpsonJSON() {
     // Feel free to download this HTML and edit it, to use another Pokemon ID
     const url = 'https://simpsons-quotes-api.herokuapp.com/quotes';
     axios.get(url)
@@ -19,4 +19,4 @@ function fetchPokemonJSON() {
         });
 }
 
-fetchPokemonJSON();
+fetchSimpsonJSON();
